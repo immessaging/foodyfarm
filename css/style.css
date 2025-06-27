@@ -1,0 +1,114 @@
+*{
+   margin:0;
+   padding:0;
+box-sizing:border-box;
+font-family:'Josefin Sans' Sans-Serif;
+}
+
+.hero{
+height:100vh;
+width:100%;
+background-image:url('../image/shop-groceries.jpg');
+background-size:cover;
+background-position:center;
+}
+
+nav{
+display:flex;
+align-items:center;
+justify-content:space-between;
+padding-top:40px;
+padding-right:10px;
+padding-left:10px;
+border:1px groove black;
+border-position:fixed;
+background:black;
+}
+
+.logo{
+color:white;
+font-size:30px;
+
+
+}
+header{
+text-align:center;
+align-items:center;
+justify-content:center;
+color:#ea1538;
+padding:30px 20px;
+text-shadow: 4px 5px 9px black;
+background: goldenrod;
+position: relative;
+margin-left: 400px;
+margin-right: 400px;
+margin-top: 50px;
+
+}
+.move{
+   color:white;
+   font-size: 40px;
+   text-shadow: 7px 7px 7px #ea1538;
+   font-weight: bolder;
+
+}
+span{color:#ea1538;}
+
+nav ul li{
+list-style-type:none;
+display:inline-block;
+padding:10px 20px;
+}
+
+nav ul li a{
+text-decoration:none;
+color:white;
+font-weight:bold;
+}
+
+nav ul li a:hover{
+color:#ea1538;
+transition:.4s;
+}
+
+.sub{
+border:none;
+text-decoration:none;
+background:#ea1538;
+padding:12px 30px;
+color:white;
+font-weight:bold;
+border-radius:30px;
+
+}
+.sub:hover{
+transform:scale(1.1);
+cursor:pointer;
+}
+
+.button{
+margin-top:7%;
+border:none;
+text-decoration:none;
+background:#ea1538;
+padding:12px 30px;
+color:white;
+font-weight:bold;
+border-radius:30px;
+line-height:1.9;
+}
+.action{color:white;
+border: 1 inset goldenrod;}
+
+.button:hover
+{
+transform:scale(0.7);
+cursor:pointer;
+background:white;
+color:#ea1538;
+}
+
+
+
+
+
